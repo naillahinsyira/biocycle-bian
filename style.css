@@ -315,8 +315,8 @@ h1, h2, h3, p { margin-top: 0; }
 .source-market { background: #c9dfc2; }
 .source-card > span { color: var(--green-700); font-size: 9px; font-weight: 800; letter-spacing: .13em; }
 .source-card h3 { margin: 19px 0 4px; color: var(--green-950); font-family: 'Manrope', sans-serif; font-size: 17px; }
-.source-card p { margin: 0 0 auto; color: var(--muted); font-size: 11px; }
-.source-card strong { margin-top: 18px; color: var(--green-800); font-family: 'Manrope', sans-serif; font-size: clamp(20px, 2.5vw, 26px); line-height: 1.15; }
+.source-card p { margin: 0; color: var(--muted); font-size: 11px; }
+.source-card strong { margin-top: auto; padding-top: 18px; color: var(--green-800); font-family: 'Manrope', sans-serif; font-size: clamp(20px, 2.5vw, 26px); line-height: 1.15; }
 .source-card strong small { font-family: 'DM Sans', sans-serif; font-size: 10px; font-weight: 500; }
 .outreach-grid { display: grid; grid-template-columns: .72fr 1fr 1fr; gap: 14px; align-items: stretch; }
 .outreach-feature, .outreach-detail, .center-feature { padding: 24px; border-radius: 13px; }
